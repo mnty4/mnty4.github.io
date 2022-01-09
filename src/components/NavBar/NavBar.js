@@ -18,7 +18,7 @@ const NavBar = () => (
         </Navbar.Collapse>
       </Container>
     </Navbar> */}
-    <h1>LUKAS GASPAR</h1>
+    <h1>Lukas Gaspar</h1>
     <ul className="navigation">
       <li>
         <a href="#about" className="nav-link">
