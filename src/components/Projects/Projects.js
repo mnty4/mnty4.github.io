@@ -37,16 +37,16 @@ const Projects = () => (
           />
           <h3 className="project-title">Login and Signup Flow</h3>
           <p className="project-details">
-            An end-to-end MERN stack application that allows user's to create an
+            {/* An end-to-end MERN stack application that allows user's to create an
             account having their information encrypted and stored in a Mongodb
             database. The user's client is then provided a JWT so the user can
             access the rest of the site. The user is also able to use this email
-            and password to login after their session has ended.
+            and password to login after their session has ended. */}
             {/* An end-to-end MERN stack application that allows user's to create
             accounts as well as login to them. Logged in user's are provided a
             JWT so they can access the rest of the site. An end-to-end MERN */}
-            {/* MERN stack app where user's can signup and login to accounts. There
-            info encrypted, stored in db and their client given a JWT. */}
+            End-to-end MERN stack app where user's can signup or login to their
+            account. Uses encryption, JWT's and a database.
           </p>
           <a
             href="http://signupflow-env.eba-knzq3jkc.ap-southeast-2.elasticbeanstalk.com/login"
