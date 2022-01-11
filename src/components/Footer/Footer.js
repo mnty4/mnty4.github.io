@@ -21,7 +21,7 @@ const Footer = () => (
       <p className="copy">
         Built with &#x2661; by{" "}
         <a href="https://twitter.com/koladechris" target="_blank">
-          Lukas Gaspar (BigL)
+          Lukas Gaspar
         </a>
       </p>
     </footer>

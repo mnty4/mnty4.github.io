@@ -10,52 +10,89 @@ const Projects = () => (
       <div className="projects-container">
         <div className="project-container project-card">
           <img
-            src="assets/images/expenseTracker.png"
-            alt="expense-tracker"
+            src="assets/images/ballTalkApp.png"
+            alt="Messaging app"
             loading="lazy"
             className="project-pic"
           />
-          <h3 className="project-title">Expense Tracker</h3>
+          <h3 className="project-title">Messaging App</h3>
           <p className="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
+            A messaging app built using React and Node.js with Socket.io where
+            user's can join chat rooms and message eachother.
           </p>
-          <a href="#" target="_blank" className="project-link">
+          <a
+            href="https://ball-talk-1.herokuapp.com/"
+            target="_blank"
+            className="project-link"
+          >
             Check it Out
           </a>
         </div>
         <div className="project-container project-card">
           <img
-            src="assets/images/netflixClone.png"
-            alt="netflic-clone"
+            src="assets/images/loginFlow.png"
+            alt="Login and signup flow"
             loading="lazy"
             className="project-pic"
           />
-          <h3 className="project-title">Netflix Clone</h3>
+          <h3 className="project-title">Login and Signup Flow</h3>
           <p className="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
+            An end-to-end MERN stack application that allows user's to create an
+            account having their information encrypted and stored in a Mongodb
+            database. The user's client is then provided a JWT so the user can
+            access the rest of the site. The user is also able to use this email
+            and password to login after their session has ended.
+            {/* An end-to-end MERN stack application that allows user's to create
+            accounts as well as login to them. Logged in user's are provided a
+            JWT so they can access the rest of the site. An end-to-end MERN */}
+            {/* MERN stack app where user's can signup and login to accounts. There
+            info encrypted, stored in db and their client given a JWT. */}
           </p>
-          <a href="#" target="_blank" className="project-link">
+          <a
+            href="http://signupflow-env.eba-knzq3jkc.ap-southeast-2.elasticbeanstalk.com/login"
+            target="_blank"
+            className="project-link"
+          >
             Check it Out
           </a>
         </div>
         <div className="project-container project-card">
           <img
-            src="assets/images/greenyEarth.png"
-            alt="greeny-earth"
+            src="assets/images/naughtsAndCrossesApp.png"
+            alt="Naughts and crosses app"
             loading="lazy"
             className="project-pic"
           />
-          <h3 className="project-title">Greeny Earth</h3>
+          <h3 className="project-title">Naughts and Crosses Game</h3>
           <p className="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
+            A Naughts and Crosses game built using React. It keeps track of wins
+            for each side and is able to also detect draws.
           </p>
-          <a href="#" target="_blank" className="project-link">
+          <a
+            href="https://naughts-and-crosses-123.herokuapp.com/"
+            target="_blank"
+            className="project-link"
+          >
+            Check it Out
+          </a>
+        </div>
+        <div className="project-container project-card">
+          <img
+            src="assets/images/todoApp.png"
+            alt="Todo app"
+            loading="lazy"
+            className="project-pic"
+          />
+          <h3 className="project-title">Todo App</h3>
+          <p className="project-details">
+            Todo app built using React where user's are able to create todo's as
+            well as delete and edit them.
+          </p>
+          <a
+            href="https://todo-app-18475.herokuapp.com/"
+            target="_blank"
+            className="project-link"
+          >
             Check it Out
           </a>
         </div>
