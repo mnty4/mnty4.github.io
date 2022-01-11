@@ -55,7 +55,13 @@ const ContactMe = () => {
                 className="submit-btn"
               />
             </form>
-            {state.succeeded && <div>Thanks for contacting me!</div>}
+            {state.succeeded ? (
+              <div className={styles.submittedMessage}>
+                Thanks for contacting me!
+              </div>
+            ) : (
+              <div style={{ color: "white" }}>lol</div>
+            )}
           </div>
         </div>
       </section>

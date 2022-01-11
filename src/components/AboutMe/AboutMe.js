@@ -20,10 +20,10 @@ const AboutMe = () => (
       <div className={"bio animate__animated animate__shakeX"}>
         <h2 className="bio-title">About Me</h2>
         <p className="bio-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sed
-          dolorem fugit sapiente porro veniam pariatur dolore nostrum delectus
-          inventore tempore minus nemo, iste ullam illo laboriosam maiores
-          repudiandae quos!
+          I am a hard working and motivated individual who enjoys all aspects of
+          software development. I have experience developing several apps using
+          React, Node.js, MongoDB, Express.js, Socket.io, as well as HTML5, CSS,
+          Bootstrap and vanilla JavaScript.
         </p>
       </div>
     </section>

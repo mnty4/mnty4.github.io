@@ -5,34 +5,29 @@ import styles from "./Socials.module.css";
 const Socials = () => (
   <div className={styles.Socials}>
     <div className="socials">
-      <a href="#" target="_blank">
+      <a href="https://www.facebook.com/lukas.gaspar.31/" target="_blank">
         <img
-          src="assets/icons/icons8-twitter-circled.gif"
-          alt="Twitter"
+          src="assets/icons/icons8-facebook-circled2.gif"
+          alt="Facebook"
           loading="lazy"
           className="socicon"
         />
       </a>
-      <a href="#" target="_blank">
+      <a href="https://github.com/mnty4" target="_blank">
         <img
-          src="assets/icons/icons8-instagram.gif"
-          alt="Instagram"
-          loading="lazy"
+          src="assets/icons/icons8-github.gif"
+          alt="Github"
           className="socicon"
         />
       </a>
-      <a href="#" target="_blank">
+      <a
+        href="https://www.linkedin.com/in/lukas-gaspar-152535201/"
+        target="_blank"
+      >
         <img
           src="assets/icons/icons8-linkedin-circled.gif"
           alt="Linkedin"
           loading="lazy"
-          className="socicon"
-        />
-      </a>
-      <a href="#" target="_blank">
-        <img
-          src="assets/icons/icons8-github.gif"
-          alt="Github"
           className="socicon"
         />
       </a>
